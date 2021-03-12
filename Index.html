@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kriegers Laboratory</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="script.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+    <div id="startPage" class="pageParameters dFlex column justifyCenter alignCenter">
+
+        <form>
+            <input type="text" id="inputName" name="inputName" placeholder="Your Name">
+        </form>
+
+        <div id="startButton" class="buttonStyle">Start Game</div>
+
+    </div>
+
+    <div id="gamePage" class="pageParameters">
+
+        <div class="dFlex alignCenter spaceAround cont90 mTop">
+
+            <div>
+                <h1 id="yourName">Your Name</h1>
+            </div>
+
+            <div>
+                <h1>PC</h1>
+            </div>
+        </div>
+
+        <div class="mTop cont90 spaceAround dFlex">
+
+            <div class="dFlex justifyCenter w30">
+
+                <div id="paper" class="iconDivs">
+                    <img src="./paper.jpg" alt="">
+                </div>
+                <div id="scissor" class="iconDivs">
+                    <img src="./scissors.jpg" alt="">
+                </div>
+                <div id="rock" class="iconDivs">
+                    <img src="./rock.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="dFlex w30 justifyCenter">
+                <div id="iconsPC">
+                    <div class="iconDivs">
+                        <img id="pcPick" src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dFlex spaceEven mTop">
+
+            <div>
+                <h1 id="myScore">0</h1>
+            </div>
+            <div id="playAgain">Play Again</div>
+            <div>
+                <h1 id="pcScore">0</h1>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
